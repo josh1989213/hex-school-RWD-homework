@@ -1,0 +1,236 @@
+/* global start */
+.wrap{
+    max-width: 100%;
+    margin: 0 auto;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* global end */
+/* header start */
+.logo-menu{
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 42px 16px 42px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.logo a h1{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../img/logo_w@svg.svg);
+    width: 120px;
+    height: 24px;
+
+}
+.meun ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meun li{
+    margin-right: 31px;
+}
+.meun a{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.banner{
+    background: url(../img/header_desktop.png);
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-text{
+    text-align: center;
+    background: rgba(0,0,0,0.35);
+    padding-top: 20px ;
+    padding-bottom: 26px;
+    padding:20px 22px 26px 22px;
+    line-height: 1.5;
+}
+
+.banner h2{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 36px;
+    color: #FFFFFF;
+    
+    margin-bottom: 16px;
+}
+.banner p{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* header end */
+/* content start */
+.sec-01{
+    position: relative;
+
+}
+.sec-01 h2{
+    display: block;
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 31px;
+
+}
+.sec-01 h2::before{
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    content: '';
+    border: 1px solid #979797;
+    width: 110px;
+    height: 1px;
+   
+}
+.sec-01 h2::after{
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 58%;
+    content: '';
+    border: 1px solid #979797;
+    width: 110px;
+    height: 1px;
+    
+}
+.sec-01 ul{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.sec-01 li{
+    width: 33.33333%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.sec-01 img{
+    width: 200px;
+    height: 200px;
+    padding: 0 1%;
+    margin-bottom: 20px;
+    
+}
+.sec-01 h3{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 18px;
+    color: #3D1101;
+    margin-bottom: 11px;
+ 
+}
+.sec-01 p{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #3D1101;
+}
+
+.sec-02{
+    background: #3D1101;
+    margin-bottom: 50px;
+}
+.sec-02-container{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec-02 img{
+    
+    width: 470px;
+    
+}
+.sec-02 .chef-word{
+    width: 410px;
+    color: #EFE9E7;
+    margin-left: 24px;
+}
+.chef-word h3{
+    font-size: 20px;
+    word-spacing: 32px;
+    padding-left: 5%;
+}
+.sec-02 h4{
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-left: 5%;
+}
+.sec-02 p{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #EFE9E7;
+    padding-left: 5%;
+}
+
+.sec-03 h3{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 24px;
+    color: #3D1101;
+    text-align: center;
+    margin-bottom: 32px;
+    
+}
+
+.sec-03 ul{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.sec-03 li{
+    width: 30%;
+    display: flex;
+    padding: 0 1%;
+}
+.feeback-pic img{
+    border-radius: 50%;
+   
+}
+.feeback-text{
+    padding: 5% 2%;
+}
+.feeback-text h4{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 18px;
+    color: #3D1101;
+    margin-bottom: 22px;
+}
+.feeback-text p{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #3D1101;
+    line-height: 24px;
+}
+.feeback-user{
+    float: right;
+}
+/* content end */
