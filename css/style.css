@@ -24,7 +24,7 @@ img{
     align-items: center;
     padding: 16px 42px 16px 42px;
     position: fixed;
-    width: 100%;
+    width: 1024px;
     z-index: 99;
 }
 
@@ -35,7 +35,7 @@ img{
 }
 @media(max-width:415px){
     .logo-meun{
-        width: 414px;
+        width: 415px;
     }
 }
 @media(max-width:320px){
@@ -78,7 +78,7 @@ img{
     display:none;
 }
 
-@media(max-width:415px){
+@media(max-width:767px){
    
    .meun{
     
@@ -98,7 +98,7 @@ img{
         padding:1% 0;
     }
      .menu-show .meun{
-        width: 414px;
+        width: 767px;
         position: absolute;
         top: 100%;
         right: 0%;
@@ -108,9 +108,14 @@ img{
     }
     .meun li{
         padding: 10px;
-        width: 33.33333%;
+        width: 30.33333%;
         text-align: center;
         margin: 0;
+    }
+}
+@media(max-width:415px){
+    .menu-show .meun{
+        width: 415px;
     }
 }
 @media(max-width:320px){
@@ -122,7 +127,7 @@ img{
     background: url(../img/header_desktop.png);
     background-position: 50%;
     background-size: cover;
-    
+    width: 1024px;
     height: 420px;
     display: flex;
     justify-content: center;
@@ -130,10 +135,20 @@ img{
 
 }
 
-
+@media(max-width:768px){
+    .banner{
+        width: 768px;
+    }
+}
 @media(max-width:415px){
     .banner{
+        width: 415px;
         background: url(../img/header_mobile.png) no-repeat;
+    }
+}
+@media(max-width:320px){
+    .banner{
+        width: 320px;
     }
 }
 .banner-text{
@@ -558,11 +573,12 @@ img{
 .booking-form{
     width: 50%;
 }
-@media(max-width:320px){
+@media(max-width:415px){
     .booking-form{
         margin-bottom: 16px;
     }
 }
+
 .booking-form .btn{
     float: right;
 }
