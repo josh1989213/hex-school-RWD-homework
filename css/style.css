@@ -29,7 +29,11 @@ img{
     z-index: 99;
     margin: 0 auto;
 }
-
+@media(min-width:1024px){
+    .logo-meun{
+    width: 1024px;
+    }
+}
 @media(max-width:768px){
     .logo-meun{
         width: 768px;
