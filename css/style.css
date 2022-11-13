@@ -435,6 +435,26 @@ img{
     width: 1024px;
     margin: 0 auto;
 }
+@media(max-width:768px){
+    .sec-03{
+        width: 768px;
+    }
+}
+@media(max-width:767px){
+    .sec-03{
+        width: 767px;
+    }
+}
+@media(max-width:415px){
+    .sec-03{
+        width: 414px;
+    }
+}
+@media(max-width:320px){
+    .sec-03{
+        width: 320px;
+    }
+}
 .sec-03 h3{
     font-family: MicrosoftJhengHeiRegular;
     font-size: 24px;
@@ -515,6 +535,26 @@ img{
     margin-bottom: 50px;
     width: 1024px;
     margin: 0 auto;
+}
+@media (max-width:768px){
+    .map-booking{
+        width: 768px;
+    }
+}
+@media (max-width:767px){
+    .map-booking{
+        width: 767px;
+    }
+}
+@media (max-width:415px){
+    .map-booking{
+        width: 414px;
+    }
+}
+@media (max-width:320px){
+    .map-booking{
+        width: 320px;
+    }
 }
 .map-booking img{
     width: 460px;
