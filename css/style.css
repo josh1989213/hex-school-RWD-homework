@@ -110,7 +110,12 @@ img{
         right: 0%;
         display: flex;
         background-color: #3D1101;
-   
+        
+    }
+    .logo-meun .active {
+        background: url(../img/UN7uSW.png) no-repeat;
+        background-size: 50%;
+        
     }
     .meun li{
         padding: 10px;
