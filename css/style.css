@@ -707,11 +707,13 @@ img{
     float: left;
     display: flex;
     width: 60%;
+    
     margin-bottom: 50px;
 }
 @media(max-width:415px){
     .about-contact{
         float: none;
+        flex-direction: column;
         width: 100%;
         margin-bottom: 16px;
     }
@@ -747,20 +749,46 @@ img{
 .about{
     width: 50%;
 }
+@media(max-width:415px){
+    .about{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .about-contact h3{
+        text-align: center;
+    }
+
+
+}
 @media(max-width:320px){
     .about{
-        width: 300px;
+       
         margin-bottom: 16px;
     }
 }
 .contact {
     margin-left: 20px;
-    width: 50%;
+    width: 90%;
+    margin-bottom: 16px;
     
 }
-@media(max-width:320px){
+@media(max-width:415px){
+    .about{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 16px;
+    }
+    .about-contact h3{
+        text-align: center;
+    }
     .contact{
-        width: 300px;
+        width: 90%;
+    }
+
+}
+@media(max-width:320px){
+    .about{
+       
         margin-bottom: 16px;
     }
 }
