@@ -4,7 +4,8 @@ $(document).ready(function() {
        e.preventDefault();
        $('body').toggleClass('menu-show');
    });
- });$(document).ready(function() {
+ });
+ $(document).ready(function() {
   // 打開左側選單
   $('.open-canvas-btn').click(function(event) {
     $('body').addClass('open');
