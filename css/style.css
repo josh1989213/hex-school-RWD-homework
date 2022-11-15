@@ -697,6 +697,11 @@ img{
         width: 414px;
     }
 }
+@media(max-width:320px){
+    .footer-wrap{
+        width: 320px;
+    }
+}
 .about-contact{
     float: left;
     display: flex;
@@ -711,10 +716,12 @@ img{
 }
 @media(max-width:320px){
     .about-contact{
+        width: 320px;
         flex-direction: column;
         
     }
 }
+
 .about-contact h3{
     font-family: MicrosoftJhengHeiRegular;
     font-size: 24px;
@@ -740,6 +747,7 @@ img{
 }
 @media(max-width:320px){
     .about{
+        width: 300px;
         margin-bottom: 16px;
     }
 }
@@ -750,6 +758,7 @@ img{
 }
 @media(max-width:320px){
     .contact{
+        width: 300px;
         margin-bottom: 16px;
     }
 }
@@ -876,6 +885,12 @@ img{
         margin-left: 30px;
     }
 }
+@media(max-width:320px){
+    .serchbar input{
+        width: 230px;
+        margin-left: 29px;
+    }
+}
 .serchbar button{
     display: inline-block;
     width: 36px;
@@ -893,6 +908,15 @@ img{
         margin-bottom: 20px;
     }
     
+}
+@media(max-width:320px){
+    .products-serchbar{
+        width: 320px;
+    }
+    .serchbar{
+        width: 320px;
+    }
+
 }
 .mini-cart{
     width: 150px;
@@ -961,6 +985,11 @@ img{
         display:block;
     }
 }
+@media(max-width:320px){
+    .category{
+        margin-left: 12px;
+    }
+}
 .category-title{
     display: flex;
     align-items: center;
@@ -971,7 +1000,11 @@ img{
         width: 36%;
     }
 }
-
+@media(max-width:320px){
+    .category-title{
+        width: 46%;
+    }
+}
 .leaves{
     margin-right: 16px;
     color: #3D1101;
@@ -1028,12 +1061,23 @@ img{
     }
    
 }
+@media(max-width:320px){
+    .l-sidebar{
+        margin-left: 6%;
+        width: 95%;
+    }
+}
 .product-container{
     width: 768px;
 }
 @media(max-width:415px){
     .product-container{
         width: 414px;
+    }
+}
+@media(max-width:320px){
+    .product-container{
+        width: 320px;
     }
 }
 .product-list{
