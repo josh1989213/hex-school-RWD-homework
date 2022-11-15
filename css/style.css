@@ -952,7 +952,7 @@ img{
 }
 @media(max-width:415px){
     .category{
-        width: 414px;
+        width: 95%;
         margin-left: 20px;
         margin-bottom: 20px;
        
@@ -966,7 +966,11 @@ img{
     align-items: center;
     margin-bottom: 16px;
 } 
-
+@media(max-width:415px){
+    .category-title{
+        width: 36%;
+    }
+}
 
 .leaves{
     margin-right: 16px;
@@ -983,7 +987,7 @@ img{
 }
 @media(max-width:768px){
     .category-title h4{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 .l-sidebar{
@@ -1015,7 +1019,7 @@ img{
 @media(max-width:415px){
 
     .l-sidebar{
-        width: 414px;
+        width: 95%;
         
     }
     
