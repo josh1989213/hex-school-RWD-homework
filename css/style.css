@@ -1411,7 +1411,8 @@ img{
         position: absolute;
         top: 8px;
         left: 9px;
-        background: rgba(61,17,0,0.50);
+        color: rgba(61,17,0,0.50);
+        
     }
     .password-input {
         
@@ -1421,7 +1422,8 @@ img{
         position: absolute;
         top: 8px;
         left: 9px;
-        background: rgba(61,17,0,0.50);
+        color: rgba(61,17,0,0.50);
+        
     }
     .fogetpassword{
         display: block;
@@ -1572,11 +1574,12 @@ img{
     position: relative;
     margin-bottom: 15px;
 }
-.mail-input i{
+.register-box .mail-input i{
     position: absolute;
     top: 8px;
     left: 9px;
-    background: rgba(61,17,0,0.50);
+    color: rgba(61,17,0,0.50);
+    
 }
 .password-input .input-1{
     margin-bottom: 12px;
@@ -1585,17 +1588,17 @@ img{
     
     position: relative;
 }
-.password-input i{
+.register-box .password-input i{
     position: absolute;
     top: 8px;
     left: 9px;
-    background: rgba(61,17,0,0.50);
+    color: rgba(61,17,0,0.50);
 }
-.password-input .fa-02{
+.register-box .password-input .fa-02{
     position: absolute;
     top: 50px;
     left: 9px;
-    background: rgba(61,17,0,0.50);
+    color: rgba(61,17,0,0.50);
 }
 .alreadyhave{
     display: block;
