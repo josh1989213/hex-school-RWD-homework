@@ -1450,6 +1450,16 @@ img{
         margin-right: 20px;
       
     }
+    .reg-btn:hover{
+        background: rgba(0, 0, 0, 0.149);
+        font-weight: bold;
+    }
+    .reg-btn:active{
+        border:inset rgb(173, 205, 10) 1px;
+        background: #3D1101;
+        box-shadow: gray 3px 3px 3px 3px;
+        
+    }
     .login-box .login-btn{
         cursor: pointer;
 
@@ -1471,6 +1481,7 @@ img{
         font-weight: bolder;
     }
     .login-box .login-btn:active{
+        border:inset rgb(173, 205, 10) 1px;
         background: #2e1406;
         font-weight: bolder;
     }
@@ -1479,6 +1490,13 @@ img{
 .register-wrap{
     display: flex;
     
+}
+@media(max-width:415px){
+   .register-wrap{
+    padding: 0 5%;
+    flex-direction: column;
+    align-items: center;
+   }
 }
 .register-title{
     text-align: center;
@@ -1507,8 +1525,22 @@ img{
 .contract{
     width: 50%;
 }
+
 .register-box form{
     width: 50%;
+}
+@media(max-width:415px){
+    .contract{
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .register-box{
+        box-shadow: none;
+    }
+    .register-box form{
+        
+        width: 100%;
+    }
 }
 .register-box h3{
     text-align: center;
