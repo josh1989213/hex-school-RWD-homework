@@ -1,0 +1,140 @@
+.register-wrap {
+  display: flex;
+}
+
+@media (max-width: 415px) {
+  .register-wrap {
+    padding: 0 5%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.register-title {
+  text-align: center;
+}
+.register-title h2 {
+  font-family: NotoSansCJKtc-Black;
+  font-size: 48px;
+  color: #3D1101;
+  margin-bottom: 5px;
+}
+.register-title p {
+  font-family: NotoSansCJKtc-Medium;
+  font-size: 20px;
+  color: #3D1101;
+  margin-bottom: 35px;
+}
+
+.register-box {
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: #EFE9E7;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  padding: 15px 15px;
+  border-top: #FF5E45 solid 3px;
+}
+.register-box form {
+  width: 50%;
+}
+.register-box h3 {
+  text-align: center;
+  font-family: NotoSansCJKtc-Black;
+  font-size: 18px;
+  color: #3D1101;
+  margin-bottom: 16px;
+}
+.register-box label {
+  display: block;
+  margin-bottom: 3px;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+}
+.register-box input {
+  width: 270px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px;
+  padding: 8px 32px;
+}
+.register-box input:focus {
+  box-shadow: #979797 3px 3px 3px 3px;
+}
+.register-box .mail-input i {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  color: rgba(61, 17, 0, 0.5);
+}
+
+.contract {
+  width: 50%;
+}
+
+@media (max-width: 415px) {
+  .contract {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .register-box {
+    box-shadow: none;
+  }
+  .register-box form {
+    width: 100%;
+  }
+}
+.mail-input {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.password-input .input-1 {
+  margin-bottom: 12px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.register-box .password-input i {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  color: rgba(61, 17, 0, 0.5);
+}
+
+.register-box .password-input .fa-02 {
+  position: absolute;
+  top: 50px;
+  left: 9px;
+  color: rgba(61, 17, 0, 0.5);
+}
+
+.alreadyhave {
+  display: block;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 14px;
+  color: #FF5E45;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.register-box .register-btn {
+  float: right;
+  cursor: pointer;
+  width: 125px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F56C23;
+  border-radius: 3px;
+  font-family: PingFangTC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 20px;
+}/*# sourceMappingURL=register.css.map */

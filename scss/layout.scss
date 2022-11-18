@@ -1,0 +1,360 @@
+@import 'grid';
+// header start
+.logo-meun{
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 42px 16px 42px;
+    position: fixed;
+    
+    width: 100%;
+    z-index: 99;
+    margin: 0 auto;
+}
+@media(min-width:1024px){
+    .logo-meun{
+    width: 1024px;
+    }
+}
+@include pad-768px(){
+    .logo-meun{
+        width: 768px;
+    }
+}
+@include mobile-414px(){
+    .logo-meun{
+        width: 415px;
+    }
+}
+
+
+@media(max-width:320px){
+    .logo-meun{
+        width: 320px;
+    }
+}
+
+.logo{
+    a{
+        h1{
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+            background: url(../img/logo_w@svg.svg);
+            width: 120px;
+            height: 24px;
+        }
+    }
+
+}
+.meun{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        margin-right: 31px;
+    }
+    a{
+        font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 1px;
+    &:hover{
+        border-bottom: 2px #ffff solid;
+    }
+    &:active{
+        font-weight: bolder;
+    }
+    }
+   
+}
+
+
+.hambergur{
+    display:none;
+}
+
+@media(max-width:767px){
+   
+   .meun{
+    
+        display: none;
+    }
+    .logo-meun  {
+        .hambergur{
+        display: block;
+        background: url(../img/YFKWe1.png) no-repeat;
+        background-size: 50%;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        }
+        
+    }
+    .hambergur{
+        a{
+        display: block;
+        padding:8% 0;
+    }
+    } 
+     .menu-show {
+        .meun{
+        width: 767px;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        display: flex;
+        background-color: #3D1101;
+        }
+    }
+    .logo-meun  {
+        .active{
+        background: url(../img/UN7uSW.png) no-repeat;
+        background-size: 50%;
+        }
+    }
+    .meun {
+        li{
+        padding: 10px;
+        width: 30.33333%;
+        text-align: center;
+        margin: 0;
+        }
+    }
+}
+@media(max-width:415px){
+    .menu-show{
+        .meun{
+            width: 415px;
+        } 
+
+}}
+@media(max-width:320px){
+    .menu-show{
+    .meun{
+        width: 320px;
+    }
+}}
+.banner{
+    background: url(../img/header_desktop.png);
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    h2{
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    p{
+        font-family: MicrosoftJhengHeiRegular;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+}
+
+@media(max-width:768px){
+    .banner{
+        width: 768px;
+    }
+}
+@media(max-width:415px){
+    .banner{
+        width: 414px;
+        background: url(../img/header_mobile.png) no-repeat;
+    }
+}
+@media(max-width:320px){
+    .banner{
+        width: 320px;
+    }
+}
+.banner-text{
+    text-align: center;
+    background: rgba(0,0,0,0.35);
+    padding-top: 20px ;
+    padding-bottom: 26px;
+    padding:20px 22px 26px 22px;
+    line-height: 1.5;
+}
+// header end
+// footer start
+.footer-wrap{
+    width: 1024px;
+    margin: 0 auto;
+
+}
+@media(max-width:768px){
+    .footer-wrap{
+         width: 768px;
+         padding: 0 1%;
+    }
+}
+@media(max-width:415px){
+    .footer-wrap{
+        width: 414px;
+        
+    }
+}
+@media(max-width:320px){
+    .footer-wrap{
+        width: 320px;
+    }
+}
+.about-contact{
+    float: left;
+    display: flex;
+    width: 60%;
+    
+    margin-bottom: 50px;
+}
+@media(max-width:415px){
+    .about-contact{
+        float: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width:320px){
+    .about-contact{
+        width: 317px;
+        flex-direction: column;
+        
+    }
+}
+
+.about-contact h3{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 24px;
+    color: #3D1101;
+    margin-bottom: 16px;
+   
+}
+.about-contact p ,li{
+    font-family: MicrosoftJhengHeiRegular;
+    font-size: 16px;
+    color: #3D1101;
+    line-height: 1.2;
+   
+}
+
+.about-contact .contact li{
+    list-style-type:disc;
+    list-style-position: inside;
+   
+}
+.about{
+    width: 50%;
+}
+@media(max-width:415px){
+    .about{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .about-contact h3{
+        text-align: center;
+    }
+
+
+}
+@media(max-width:320px){
+    .about{
+       
+        margin-bottom: 16px;
+    }
+}
+.contact {
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 16px;
+    
+}
+@media(max-width:415px){
+    .about{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 16px;
+    }
+    .about-contact h3{
+        text-align: center;
+    }
+    .contact{
+        width: 90%;
+    }
+
+}
+@media(max-width:320px){
+    .about{
+       
+        margin-bottom: 16px;
+    }
+}
+.contact a{
+    color: #3D1101;
+    text-decoration: none;
+}
+.footerlogo{
+    margin-bottom: 16px;
+}
+.footerlogo a{
+    display: block;
+    background: url(../img/logo_l@svg.svg) no-repeat;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 245px;
+    height: 49px;
+}
+.footerlogo-socialicon{
+    float: right;
+    margin-right: 10px;
+
+}
+@media(max-width:415px){
+    .footerlogo-socialicon{
+        float: right;
+        
+    }
+}
+.socialicon ul{
+    display: flex;
+    float: right;
+}
+@media(max-width:320px){
+    .socialicon ul{
+        float:none;
+    }
+}
+.socialicon i{
+    font-size: 36px;
+}
+.socialicon li{
+    margin-left: 12px;
+}
+.googleicon{
+   
+    color: #db4437;
+}
+.twicon{
+    color: #41abe1;
+}
+.fbicon{
+   color: #3a5795;
+}
+@media(max-width:415px){
+    .socialicon{
+        float: right;
+        margin-bottom: 24px;
+    }
+}
+// footer end

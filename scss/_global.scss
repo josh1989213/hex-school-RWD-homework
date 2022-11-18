@@ -1,0 +1,18 @@
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #EFE9E7;
+    
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,146 @@
+.login-title {
+  text-align: center;
+}
+
+.login-title h2 {
+  font-family: NotoSansCJKtc-Black;
+  font-size: 48px;
+  color: #3D1101;
+  margin-bottom: 5px;
+}
+
+.login-title p {
+  font-family: NotoSansCJKtc-Medium;
+  font-size: 20px;
+  color: #3D1101;
+  margin-bottom: 35px;
+}
+
+.login-box {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: #EFE9E7;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  padding: 15px 15px;
+  border-top: #FF5E45 solid 3px;
+}
+
+.login-box h3 {
+  text-align: center;
+  font-family: NotoSansCJKtc-Black;
+  font-size: 18px;
+  color: #3D1101;
+  margin-bottom: 16px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 3px;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 16px;
+  color: #3D1101;
+}
+
+.login-box input {
+  width: 270px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px;
+  padding: 8px 32px;
+}
+
+.login-box input:focus {
+  box-shadow: #979797 3px 3px 3px 3px;
+}
+
+.mail-input {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.mail-input i {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  color: rgba(61, 17, 0, 0.5);
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  color: rgba(61, 17, 0, 0.5);
+}
+
+.fogetpassword {
+  display: block;
+  font-family: MicrosoftJhengHeiRegular;
+  font-size: 14px;
+  color: #FF5E45;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.login-box-btn {
+  display: flex;
+}
+
+.reg-btn {
+  width: 125px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  font-family: PingFangTC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.reg-btn:hover {
+  background: rgba(0, 0, 0, 0.149);
+  font-weight: bold;
+}
+
+.reg-btn:active {
+  border: inset rgb(173, 205, 10) 1px;
+  background: #3D1101;
+  box-shadow: gray 3px 3px 3px 3px;
+}
+
+.login-box .login-btn {
+  cursor: pointer;
+  border: transparent 0px solid;
+  width: 125px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: PingFangTC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #F56C23;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.login-box .login-btn:hover {
+  background: #efa882;
+  font-weight: bolder;
+}
+
+.login-box .login-btn:active {
+  border: inset rgb(173, 205, 10) 1px;
+  background: #2e1406;
+  font-weight: bolder;
+}/*# sourceMappingURL=login.css.map */
