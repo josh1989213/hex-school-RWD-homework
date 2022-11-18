@@ -235,7 +235,6 @@ img {
 }
 @media (max-width: 320px) {
   .about-contact {
-    width: 317px;
     flex-direction: column;
   }
 }
@@ -655,6 +654,12 @@ img {
 
 .map-booking img {
   margin-left: 10%;
+}
+@media (max-width: 767px) {
+  .map-booking img {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .map-booking-wrap {

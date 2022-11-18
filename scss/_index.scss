@@ -282,6 +282,9 @@
 
 .map-booking img{
    margin-left: 10%;
+   @include mobile-767px(){
+    margin: 0;
+   }
 }
 
 .map-booking-wrap{
