@@ -1,7 +1,7 @@
 @mixin pad-768px {
 
     @media(max-width:768px){
-        
+        width: 768px;
         @content
     }
     
@@ -9,7 +9,7 @@
 
 @mixin mobile-767px {
     @media(max-width:767px){
-       
+        width: 100%;
          @content
     }
     

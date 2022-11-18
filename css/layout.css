@@ -9,7 +9,6 @@
   z-index: 99;
   margin: 0 auto;
 }
-
 @media (min-width: 1024px) {
   .logo-meun {
     width: 1024px;
@@ -20,14 +19,9 @@
     width: 768px;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 767px) {
   .logo-meun {
-    width: 415px;
-  }
-}
-@media (max-width: 320px) {
-  .logo-meun {
-    width: 320px;
+    width: 100%;
   }
 }
 .logo a h1 {
@@ -82,7 +76,7 @@
     padding: 8% 0;
   }
   .menu-show .meun {
-    width: 767px;
+    width: 100%;
     position: absolute;
     top: 100%;
     right: 0%;
@@ -100,16 +94,6 @@
     margin: 0;
   }
 }
-@media (max-width: 415px) {
-  .menu-show .meun {
-    width: 415px;
-  }
-}
-@media (max-width: 320px) {
-  .menu-show .meun {
-    width: 320px;
-  }
-}
 .banner {
   background: url(../img/header_desktop.png);
   background-position: 50%;
@@ -119,7 +103,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
   margin-bottom: 48px;
 }
 .banner h2 {
@@ -133,58 +116,37 @@
   font-size: 16px;
   color: #FFFFFF;
 }
-
-@media (max-width: 768px) {
-  .banner {
-    width: 768px;
-  }
-}
 @media (max-width: 415px) {
   .banner {
-    width: 414px;
     background: url(../img/header_mobile.png) no-repeat;
   }
 }
-@media (max-width: 320px) {
-  .banner {
-    width: 320px;
-  }
-}
+
 .banner-text {
   text-align: center;
   background: rgba(0, 0, 0, 0.35);
-  padding-top: 20px;
-  padding-bottom: 26px;
   padding: 20px 22px 26px 22px;
   line-height: 1.5;
 }
 
-.footer-wrap {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer-wrap {
-    width: 768px;
+    width: 100%;
     padding: 0 1%;
   }
 }
-@media (max-width: 415px) {
-  .footer-wrap {
-    width: 414px;
-  }
-}
-@media (max-width: 320px) {
-  .footer-wrap {
-    width: 320px;
-  }
-}
+
 .about-contact {
   float: left;
   display: flex;
   width: 60%;
   margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .about-contact {
+    width: 100%;
+    float: none;
+  }
 }
 
 @media (max-width: 415px) {
@@ -246,9 +208,7 @@
 
 @media (max-width: 415px) {
   .about {
-    margin: 0 auto;
-    width: 90%;
-    margin-bottom: 16px;
+    margin: 0 auto 16px auto;
   }
   .about-contact h3 {
     text-align: center;
@@ -293,7 +253,7 @@
 }
 .socialicon ul {
   display: flex;
-  float: right;
+  justify-content: end;
 }
 
 @media (max-width: 320px) {
