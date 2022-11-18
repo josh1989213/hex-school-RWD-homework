@@ -915,7 +915,7 @@ img {
 }
 
 .cart-container {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 50px;
@@ -923,23 +923,12 @@ img {
 
 @media (max-width: 768px) {
   .cart-container {
-    width: 768px;
-  }
-}
-@media (max-width: 767px) {
-  .cart-container {
-    width: 767px;
+    width: 100%;
   }
 }
 @media (max-width: 415px) {
   .cart-container {
-    width: 414px;
     flex-direction: column;
-  }
-}
-@media (max-width: 320px) {
-  .cart-container {
-    width: 320px;
   }
 }
 .products-serchbar {
@@ -952,7 +941,7 @@ img {
 
 .serchbar {
   font-size: 0px;
-  width: 460px;
+  max-width: 460px;
   height: 32px;
   white-space: nowrap;
 }
@@ -970,24 +959,16 @@ img {
 
 @media (max-width: 768px) {
   .serchbar input {
-    width: 340px;
-  }
-}
-@media (max-width: 767px) {
-  .serchbar input {
-    width: 340px;
+    width: 65%;
   }
 }
 @media (max-width: 415px) {
   .serchbar input {
-    width: 340px;
-    width: 320px;
     margin-left: 30px;
   }
 }
 @media (max-width: 320px) {
   .serchbar input {
-    width: 230px;
     margin-left: 29px;
   }
 }
@@ -1004,20 +985,12 @@ img {
     flex-direction: column;
   }
   .serchbar {
-    width: 414px;
+    width: 100%;
     margin-bottom: 20px;
   }
 }
-@media (max-width: 320px) {
-  .products-serchbar {
-    width: 320px;
-  }
-  .serchbar {
-    width: 320px;
-  }
-}
 .mini-cart {
-  width: 150px;
+  width: 57%;
   display: flex;
   justify-content: center;
 }
@@ -1076,7 +1049,6 @@ img {
 }
 @media (max-width: 415px) {
   .category {
-    width: 95%;
     margin-left: 20px;
     margin-bottom: 20px;
   }
@@ -1120,7 +1092,7 @@ img {
 
 @media (max-width: 768px) {
   .category-title h4 {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 .l-sidebar {
@@ -1167,17 +1139,17 @@ img {
   }
 }
 .product-container {
-  width: 768px;
+  max-width: 768px;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 768px) {
   .product-container {
-    width: 414px;
+    width: 79%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .product-container {
-    width: 320px;
+    width: 100%;
   }
 }
 .product-list {
@@ -1294,7 +1266,7 @@ img {
   justify-content: center;
   border: 2px solid #FF5E45;
   border-radius: 3px;
-  width: 200px;
+  width: 90%;
   height: 28px;
   color: #FF5E45;
   margin: 0 auto;
