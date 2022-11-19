@@ -14,7 +14,7 @@
     margin-bottom: 35px;
 }
 .login-box{
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     margin-bottom: 50px;
     background: #EFE9E7;
@@ -23,6 +23,12 @@
     border-top: #FF5E45 solid 3px;
     @include mobile-576px(){
         width: 52%;
+    }
+    @include mobile-414px(){
+        width: 72%;
+    }
+    @include mobile-320px(){
+        width: 92%;
     }
 }
 .login-box h3{

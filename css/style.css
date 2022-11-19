@@ -773,7 +773,7 @@ img {
 }
 
 .login-box {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
   margin-bottom: 50px;
   background: #EFE9E7;
@@ -784,6 +784,16 @@ img {
 @media (max-width: 576px) {
   .login-box {
     width: 52%;
+  }
+}
+@media (max-width: 415px) {
+  .login-box {
+    width: 72%;
+  }
+}
+@media (max-width: 320px) {
+  .login-box {
+    width: 92%;
   }
 }
 
