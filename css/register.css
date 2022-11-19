@@ -26,7 +26,7 @@
 }
 
 .register-box {
-  max-width: 620px;
+  max-width: 65%;
   margin: 0 auto;
   margin-bottom: 50px;
   background: #EFE9E7;
@@ -52,8 +52,7 @@
   color: #3D1101;
 }
 .register-box input {
-  width: 270px;
-  height: 32px;
+  width: 100%;
   background: #FFFFFF;
   border: 1px solid #CCCCCC;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
@@ -127,9 +126,6 @@
   cursor: pointer;
   width: 125px;
   height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #F56C23;
   border-radius: 3px;
   font-family: PingFangTC-Regular;

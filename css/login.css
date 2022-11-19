@@ -17,7 +17,7 @@
 }
 
 .login-box {
-  width: 300px;
+  width: 30%;
   margin: 0 auto;
   margin-bottom: 50px;
   background: #EFE9E7;
@@ -43,8 +43,7 @@
 }
 
 .login-box input {
-  width: 270px;
-  height: 32px;
+  width: 100%;
   background: #FFFFFF;
   border: 1px solid #CCCCCC;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
@@ -95,9 +94,8 @@
 .reg-btn {
   width: 125px;
   height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 3% 0;
+  text-align: center;
   background: rgba(0, 0, 0, 0.35);
   border-radius: 3px;
   font-family: PingFangTC-Regular;
@@ -123,9 +121,6 @@
   border: transparent 0px solid;
   width: 125px;
   height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: PingFangTC-Regular;
   font-size: 14px;
   color: #FFFFFF;

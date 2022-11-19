@@ -1,22 +1,12 @@
 @import 'grid';
 .cart-container{
-    max-width: 1024px;
-    margin: 0 auto;
+
     display: flex;
     margin-bottom: 50px;
     
 }
-@media(max-width:768px){
-    .cart-container{
-        width: 100%;
-    }
-    
-}
-// @media(max-width:767px){
-//     .cart-container{
-//         width: 767px;
-//     }
-// }
+
+
 @media(max-width:415px){
     .cart-container{
         
@@ -48,6 +38,7 @@
 .serchbar input:focus{
     background: #979797;
     box-shadow: #41abe1 2px 2px;
+    color: #fff;
 }
 @media(max-width:768px){
     .serchbar input{
@@ -73,7 +64,12 @@
     height: 32px;
     background: #3D1101;
     color: #ffff;
+    &:hover{
+        background: #681d02;
+        cursor: pointer;
+    }
 }
+
 @media(max-width:415px){
     .products-serchbar{
         
@@ -85,15 +81,7 @@
     }
     
 }
-// @media(max-width:320px){
-//     .products-serchbar{
-//         width: 320px;
-//     }
-//     .serchbar{
-//         width: 320px;
-//     }
 
-// }
 .mini-cart{
     width: 57%;
     display: flex;
@@ -271,6 +259,14 @@
     background: #EFE9E7;
     margin-bottom: 30px;
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    @include mobile-767px(){
+
+        width: 47%;
+    }
+    @media (max-width:576px){
+        margin: 0 auto;
+        width: 66%;
+    }
     
 }
 .product-list li:hover{
@@ -280,6 +276,7 @@
 .product-list li img{
     width: 220px;
     height: 120px;
+    object-fit:cover;
 }
 .product-list h4,p{
     margin-bottom: 8px;
