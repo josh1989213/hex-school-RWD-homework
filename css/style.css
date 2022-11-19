@@ -781,6 +781,11 @@ img {
   padding: 15px 15px;
   border-top: #FF5E45 solid 3px;
 }
+@media (max-width: 576px) {
+  .login-box {
+    width: 52%;
+  }
+}
 
 .login-box h3 {
   text-align: center;
